@@ -649,8 +649,10 @@ line-height: 2;
 }
 
 .work-text {
+font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
+color: var(--primary-text-color);
 }
 
 .work-project {
@@ -658,4 +660,12 @@ padding: 20px 24px;
 padding-top: 20px;
 border: 1px solid #EEEEEE;
 border-top: none;
+}
+
+.work-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
 }
